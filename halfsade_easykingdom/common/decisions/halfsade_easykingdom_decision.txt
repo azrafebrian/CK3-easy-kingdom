@@ -1,0 +1,41 @@
+﻿halfsade_easykingdom_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_knight_kneeling.dds"
+	}
+	decision_group_type = major
+	sort_order = 75
+	desc = halfsade_easykingdom_decision_desc
+	confirm_text = halfsade_easykingdom_decision_confirm
+	cooldown = { years = 10 }
+
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		highest_held_title_tier = tier_duchy
+		NOT = { has_game_rule = off_custom_kingdoms }
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		sub_realm_size >= 1
+		prestige_level >= 3
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 2000
+		prestige = 5000
+	}
+
+	effect = {
+		create_custom_kingdom_effect = yes
+	}
+
+	ai_potential = {
+		always = no
+	}
+}

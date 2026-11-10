@@ -1,0 +1,9 @@
+﻿l_english:
+ halfsade_easykingdom_decision:0 "Found a New Kingdom (Less Held Realm)"
+ halfsade_easykingdom_decision_desc:0 "A kingdom is not born of land alone, but of will. A small land suffices to rise a kingdom, though the price is steep and prestige burned to ash. From such sacrifice, a kingdom rises."
+ halfsade_easykingdom_decision_confirm:0 "Found New Kingdom"
+ halfsade_easykingdom_decision_tooltip:0 "Found a new kingdom, even if it's small."
+ create_new_kingdom:0 "You create a new Kingdom"
+ create_title_every_held_duchy:0 "Every Duchy title you [hold|E] or [completely_control|E]"
+ create_custom_kingdom_de_jure_changes:0 "Becomes [de_jure|E] [duchies|E] of your new Kingdom"
+ NEW_CREATED_TITLE_NAME:0 "[old_title.GetBaseNameNoTierNoTooltip]"
